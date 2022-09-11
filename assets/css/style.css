@@ -8,9 +8,109 @@
 .w-max {
     width: max-content;
 }
+.bottom-6 {
+    bottom: 6px;
+}
 
 
-/* Landing Page */
+/* Header Section */
+.a2i-navbar {
+    z-index: 99999;
+    background: transparent linear-gradient(180deg,#000B2BE6 0%,#00061CD6 45%,#000A1C00 100%) 0% 0% no-repeat padding-box
+}
 .a2i-logo {
     max-width: 80px;
+}
+.landing-page-header {
+    height: calc(100vh - 100px);
+    margin-top: -105px;
+}
+.landing-page-right-side {
+    background: url('../img/landing-page/a2i-website-right.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.landing-page-header-content-overlay {
+    background-image: linear-gradient(180deg,#00000000 50%,#0000006b 75%);
+    height: 100%;
+}
+.landing-page-header-right-content-overlay {
+    background-image: linear-gradient(180deg,#00000000 50%,#000000a8 75%);
+    height: 100%;
+}
+.header-left-content {
+    max-width: 900px;
+}
+.header-right-content {
+    max-width: 600px;
+}
+.a2i-logoset-top {
+    max-width: 400px;
+}
+
+.header-left-btn-wrapper {
+    width: max-content;
+}
+.header-left-btn {
+    position: relative;
+}
+.header-left-btn-text {
+    padding-right: 20px;
+    transition: .3s all ease-in-out;
+}
+.header-left-btn i {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 100px;
+    padding-right: 0px;
+    transition: .3s all ease-in-out;
+}
+.header-left-btn:hover i {
+    width: calc(100% + 12px);
+    border: 1px solid #fff;
+    padding-right: 6px;
+}
+.header-left-btn:hover .header-left-btn-text {
+    padding-right: 30px;
+}
+
+.header-right-btn-wrapper {
+    width: max-content;
+}
+.header-right-btn {
+    position: relative;
+}
+.header-right-btn-text {
+    padding-left: 25px;
+    transition: .3s all ease-in-out;
+}
+.header-right-btn i {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    left: 0;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 100px;
+    padding-right: 0px;
+    transition: .3s all ease-in-out;
+}
+.header-right-btn:hover i {
+    width: calc(100% + 12px);
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+.header-right-btn:hover .header-right-btn-text {
+    padding-left: 35px;
 }
