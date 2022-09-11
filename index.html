@@ -18,8 +18,8 @@
 </head>
 <body>
     <!-- Header Section Start -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-transparent">
+    <header class="a2i-navbar position-relative">
+        <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" class="a2i-logo" alt="">
@@ -28,18 +28,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarColor03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-semibold">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Missions</a>
+                            <a class="nav-link text-white" href="#">Our Missions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Stories</a>
+                            <a class="nav-link text-white" href="#">Our Stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News & Media</a>
+                            <a class="nav-link text-white" href="#">News & Media</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link text-white" href="#">About Us</a>
                         </li>
                     </ul>
                     <form class="d-flex position-relative" role="search">
@@ -55,14 +55,42 @@
     <section class="landing-page-header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 p-0">
+                <div class="col-lg-8 p-0 position-relative">
                     <div class="overflow-hidden">
-                        <video class="object-cover h-max-screen" autoplay="" muted="" playsinline="" loop="" src="http://3.1.208.233/wp-content/uploads/2022/09/a2i-main-banner-1.mp4"></video>
+                        <video class="object-cover h-max-screen w-100" autoplay="" muted="" playsinline="" loop="" src="http://3.1.208.233/wp-content/uploads/2022/09/a2i-main-banner-1.mp4"></video>
+                    </div>
+                    <div class="position-absolute w-100 bottom-6 end-0 pb-5 pe-5 text-end text-white landing-page-header-content-overlay d-flex flex-column justify-content-end align-items-end">
+                        <div class="header-left-content position-relative">
+                            <h2 class="fw-bold">a2i : A Multinational Digital Transformation Catalyst from the Government of Bangladesh</h2>
+                            <div class="header-left-btn-wrapper ms-auto mt-4">
+                                <a href="#" class="header-left-btn d-flex align-items-center justify-content-end text-white text-decoration-none" role="button">
+                                    <span class="header-left-btn-text me-1">Watch a2i</span>
+                                    <i class="far fa-play-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/img/landing-page/a2i-logoset.svg" class="a2i-logoset-top position-absolute start-0 bottom-0 p-3" alt="">
+                </div>
+                <div class="col-lg-4 pe-0 position-relative">
+                    <div class="landing-page-right-side h-max-screen">
+                        <div class="landing-page-header-right-content-overlay d-flex flex-column justify-content-end text-white pb-5 ps-5">
+                            <div class="header-right-content">
+                                <h2>InFocus : South-South Matchmaker Workshop on Public Service Innovation</h2>
+                                <div class="header-right-btn-wrapper me-auto mt-4">
+                                    <a href="#" class="header-right-btn d-flex align-items-center justify-content-start text-white text-decoration-none" role="button">
+                                        <i aria-hidden="true" class="fas fa-angle-right"></i>
+                                        <span class="header-right-btn-text me-1">Watch a2i</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 p-0"></div>
             </div>
         </div>
     </section>
+
+    <div style="height: 500px;"></div>
 </body>
 </html>
