@@ -21,6 +21,24 @@
 .a2i-logo {
     max-width: 80px;
 }
+.a2i-header-search-form-input, .a2i-header-search-form-input:focus {
+    background: #e0e0e073;
+    font-size: 14px;
+    visibility: hidden;
+}
+.a2i-header-search-form-input-visible {
+    width: 250px;
+}
+.a2i-header-search-form-input::placeholder {
+    color: #fff;
+}
+.a2i-header-search-form-btn, .a2i-header-search-form-btn:hover {
+    background: #e0e0e073 !important;
+    width: 35px;
+    height: 35px;
+    line-height: 22px;
+    text-align: center;
+}
 .landing-page-header {
     height: calc(100vh - 100px);
     margin-top: -105px;
