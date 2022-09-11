@@ -1,0 +1,16 @@
+/* Typography */
+.object-cover {
+    object-fit: cover;
+}
+.h-max-screen {
+    height: 100vh;
+}
+.w-max {
+    width: max-content;
+}
+
+
+/* Landing Page */
+.a2i-logo {
+    max-width: 80px;
+}
