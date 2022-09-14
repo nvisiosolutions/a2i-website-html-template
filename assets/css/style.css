@@ -132,3 +132,10 @@
 .header-right-btn:hover .header-right-btn-text {
     padding-left: 35px;
 }
+.trending-insights {
+    background-color: #EFEFEF;
+    margin-top: -5px;
+}
+.landing-page-missions {
+    margin-top: 200px;
+}
