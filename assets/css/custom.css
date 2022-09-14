@@ -1754,11 +1754,11 @@ button.read-more:hover {
 
 .stories article .elementor-post__read-more {
 	transition: .3s all ease-in-out;
-	transform: translatex(-110px);
+	transform: translateX(-110px);
 	opacity: 0;
 }
 .stories article:hover .elementor-post__read-more {
-	transform: translatex(-5px);
+	transform: translateX(-5px);
 	opacity: 1;
 }
 .stories article .attachment-large {
