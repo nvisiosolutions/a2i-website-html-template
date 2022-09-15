@@ -28,6 +28,10 @@ body {
 .-mt-30 {
     margin-top: -30px;
 }
+.fs-14 {
+    font-size: 14px;
+    line-height: 22px;
+}
 
 /* Components */
 .fancy-btn-wrapper {
@@ -244,4 +248,62 @@ body {
 }
 .newsletter-form-btn:hover i {
     color: #00516a91;
+}
+
+/* Footer Top Section */
+.footer-top {
+    background-color: #000E33;
+}
+.my-video-dimensions {
+    width: 100%;
+    height: 340px;
+}
+.carousel-control-prev {
+    left: 0 !important;
+}
+.carousel-control-next {
+    right: 0 !important;
+}
+.video-js .vjs-control-bar {
+    z-index: 9999999999999999999;
+}
+.vjs-poster {
+    background-size: cover;
+}
+.video-js .vjs-big-play-button {
+    font-size: 12em;
+    position: relative;
+    margin: 0 auto;
+    top: 43%;
+    border: none;
+    background-color: transparent;
+}
+.video-js:hover .vjs-big-play-button {
+    background-color: transparent;
+}
+.video-js .vjs-big-play-button {
+    font-size: 12em;
+    position: relative;
+    margin: 0 auto;
+    top: 23.5%;
+    border: none;
+    background-color: transparent;
+}
+
+/* Footer Section */
+.main-footer {
+    background-color: #00113E;
+}
+.footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+    font-size: 14px;
+}
+.footer-menu li a:hover {
+    color: #00FF7B;
+    text-decoration: none;
+}
+.footer-credit {
+    border-color: #072778 !important;
 }
