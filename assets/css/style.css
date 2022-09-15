@@ -210,3 +210,38 @@ body {
 .landing-page-stories .lps:nth-child(4) {
     margin-top: 300px;
 }
+
+/* Awards Section */
+.awards-section-title {
+    color: #00516A;
+    font-family: "Roboto", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.landing-page-awards {
+    background-image: url("https://a2i.nvisio.one/wp-content/uploads/2022/08/Award_bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 100px 0;
+    background-image: url("https://a2i.gov.bd/wp-content/uploads/2022/08/Subscribe_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.newsletter-form-btn i {
+    color: #00516A;
+    font-size: 14px;
+    transition: .3s all ease-in-out;
+}
+.newsletter-form-btn input, .newsletter-form-btn input::placeholder {
+    font-size: 14px;
+}
+.newsletter-form-btn:hover i {
+    color: #00516a91;
+}
