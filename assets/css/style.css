@@ -99,7 +99,6 @@ body {
 
 /* Landing Page Header */
 .landing-page-header {
-    height: 100vh;
     margin-top: -105px;
 }
 .landing-page-right-side {
@@ -205,14 +204,8 @@ body {
 }
 
 /* Landing Page Stories */
-.landing-page-stories .lps:nth-child(2) {
-    margin-top: 100px;
-}
-.landing-page-stories .lps:nth-child(3) {
-    margin-top: 200px;
-}
-.landing-page-stories .lps:nth-child(4) {
-    margin-top: 300px;
+.lps {
+    margin-top: 20px;
 }
 
 /* Awards Section */

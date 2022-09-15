@@ -3,3 +3,21 @@
         max-width: 1400px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .landing-page-stories .lps:nth-child(2) {
+        margin-top: 100px;
+    }
+    .landing-page-stories .lps:nth-child(3) {
+        margin-top: 200px;
+    }
+    .landing-page-stories .lps:nth-child(4) {
+        margin-top: 300px;
+    }
+    .-mt-xl-30 {
+        margin-top: -30px;
+    }
+    .landing-page-header {
+        height: 100vh;
+    }
+}
