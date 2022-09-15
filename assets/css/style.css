@@ -11,6 +11,12 @@
 .bottom-6 {
     bottom: 6px;
 }
+.pb-140 {
+    padding-bottom: 140px;
+}
+.b-100 {
+    bottom: 100px;
+}
 
 
 /* Header Section */
@@ -24,7 +30,6 @@
 .a2i-header-search-form-input, .a2i-header-search-form-input:focus {
     background: #e0e0e073;
     font-size: 14px;
-    visibility: hidden;
 }
 .a2i-header-search-form-input-visible {
     width: 250px;
@@ -33,14 +38,15 @@
     color: #fff;
 }
 .a2i-header-search-form-btn, .a2i-header-search-form-btn:hover {
-    background: #e0e0e073 !important;
+    /* background: #e0e0e073 !important; */
     width: 35px;
+    color: #fff;
     height: 35px;
     line-height: 22px;
     text-align: center;
 }
 .landing-page-header {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 105px);
     margin-top: -105px;
 }
 .landing-page-right-side {
@@ -50,7 +56,7 @@
     background-position: center;
 }
 .landing-page-header-content-overlay {
-    background-image: linear-gradient(180deg,#00000000 50%,#0000006b 75%);
+    background-image: linear-gradient(180deg,#00000000 30%,#0000006b 50%);
     height: 100%;
 }
 .landing-page-header-right-content-overlay {
@@ -58,7 +64,7 @@
     height: 100%;
 }
 .header-left-content {
-    max-width: 900px;
+    max-width: 680px;
 }
 .header-right-content {
     max-width: 600px;
