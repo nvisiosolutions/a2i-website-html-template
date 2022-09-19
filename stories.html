@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>a2i - Access to Innovate</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- Video Player CSS -->
+    <link rel="stylesheet" href="assets/css/video-js.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- Theme Styles -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="a2i-navbar position-relative">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" class="a2i-logo" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Our Missions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="stories.html">Our Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">News & Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex position-relative" role="search">
+                        <input class="form-control shadow-none rounded-pill a2i-header-search-form-input text-white border-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn position-absolute end-0 a2i-header-search-form-btn h-100 shadow-none border-0 rounded-circle" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <div style="background: url('https://a2i.gov.bd/wp-content/uploads/2022/08/child-g8999a6b41_1920.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;" class="mt--118 stories_single_hero d-flex flex-column justify-content-end">
+    	<div class="text-overlay">
+            <div class="text-box-center">
+                <h2>
+                	Our Stories</h2>
+            </div>
+        </div>
+    </div>
+                        
+    <div class="container news-container">
+        <div class="row">
+            <div class="text-left mb-4 mt-4">
+                <h2 class="fw-bold">Featured Stories</h2>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-8">
+            	<a href="https://a2i.gov.bd/op-ed-digital-bangladesh-what-it-is-and-what-it-isnt/">
+                    <div class="card news-card mb-4">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/08/unnamed-1607710635939.jpg" alt="" srcset="">
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>25 August, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>OP-ED: Digital Bangladesh: What it is and what it isn’t</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: South Asia @LSE</p>
+                            </div>
+                            <div class="short-detail d-block d-md-none">
+                                <p>Technology is a great enabler that helps us reach our goals quicker...</p>
+                            </div>
+                            <div class="read-more">Read More</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4">
+                <a href="https://a2i.gov.bd/how-a2i-is-using-empathy-to-foster-innovation-in-bangladesh/">
+                    <div class="card news-card mb-4">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/08/How-a2i-is-using-empathy...-1024x683.jpg" alt="How a2i is using empathy to foster innovation in Bangladesh" title="How a2i is using empathy to foster innovation in Bangladesh">
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>25 August, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>How a2i is using empathy to foster innovation in Bangladesh</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: South Asia @LSE</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+              	</a>
+            </div>
+        </div>
+        <hr>
+                
+        <div class="row">
+            <div class="text-left mb-4 mt-4">
+                <h2 class="fw-bold">Our Stories</h2>
+            </div>
+        </div>
+        <div class="row" id="aposts">
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/empowering-entrepreneurs-with-access-to-digital-services/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/bf3aa71c-9b76-466b-b15d-3928bae4244f.jpg" class="img-fluid wp-post-image" alt="" loading="lazy" />
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i>
+                                <p>6 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>Empowering entrepreneurs with access to digital services</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: Edison Alliance</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/refugees-arent-going-anywhere-we-need-sustainable-solutions/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/115099696_home-2.jpg" class="img-fluid wp-post-image" alt="" loading="lazy"/>
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>5 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>Refugees Aren&#8217;t Going Anywhere. We Need Sustainable Solutions</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: Global Policy</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/to-win-the-data-battle-big-tech-should-cut-users-in-on-the-deal/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/20ec94ac382243eab011b5173dad1379.png" class="img-fluid wp-post-image"/>
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>5 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>To win the data battle, Big Tech should cut users...</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: CGTN</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/how-bangladesh-is-seizing-the-opportunities-of-e-governance/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/responsive_big_webp_B2MnUiTKq-NU3pBYL6B9MPzn85Rua9akv7Gqs9ZUWJA.webp" class="img-fluid wp-post-image" alt=""/>
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>5 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>How Bangladesh is seizing the opportunities of e-governance</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: World Economy Forum</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/when-covid-moved-work-online-it-created-an-opportunity-for-countries-in-the-global-south/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/IT-worker.jpg" class="img-fluid wp-post-image" alt="" />
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>5 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>When COVID moved work online, it created an opportunity for...</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: LSE</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-lg-4 mt-4">
+                <a href="https://a2i.gov.bd/south-asia-has-a-new-economic-leader-will-the-world-take-note/">
+                    <div class="card news-card">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/08/child-g8999a6b41_1920.jpg" class="img-fluid wp-post-image" alt=""/>
+                        <div class="content">
+                            <div class="date">
+                                <i class="fas fa-calendar-day"></i> 
+                                <p>5 September, 2022</p>
+                            </div>
+                            <div class="title">
+                                <h4>South Asia Has a New Economic Leader. Will the World...</h4>
+                            </div>
+                            <div class="short-detail d-none d-md-block">
+                                <p>Source: The Diplomat</p>
+                            </div>
+                            <div class="read-more">Read More..</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="more-item mb-5">
+                <a href="https://a2i.gov.bd/category/our-stories/" class="view-more border-0 text-dark mt-5" id="more_posts">
+                    <i class='fas fa-arrow-right'></i> <p>View More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section Start -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <p class="text-center text-white fs-2">
+                    <span class="fw-thin">Subscribe &</span>
+                    <span class="fw-bold">Stay Connected</span>
+                </h2>
+                
+                <div class="row">
+                    <div class="col-xl-8 mx-auto">
+                        <form class="d-flex position-relative" role="search">
+                            <input class="form-control shadow-none rounded-pill bg-white border-0" type="email" placeholder="Enter your email here..." aria-label="Search">
+                            <button class="btn position-absolute end-0 newsletter-form-btn h-100 shadow-none border-0 rounded-circle px-4" type="button"><i class="fas fa-long-arrow-alt-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section End -->
+
+    <!-- Footer Top Section Start -->
+    <section class="footer-top py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex text-white align-items-center gap-2 fs-4 mb-3 fw-bold">
+                                <i class="fa-brands fa-twitter"></i>
+                                <span>@a2i Twitter</span>
+                            </div>
+
+                            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 100%; height: 340px; display: block; flex-grow: 1;" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/a2i_bd?dnt=false&amp;embedId=twitter-widget-0&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=false&amp;hideScrollBar=false&amp;lang=en&amp;maxHeight=340px&amp;origin=https%3A%2F%2Fa2i.gov.bd%2F&amp;sessionId=cb6d2d65e9b7e5126a73ee14feadd0f52713cafe&amp;showHeader=true&amp;showReplies=false&amp;theme=light&amp;transparent=false&amp;widgetsVersion=1bfeb5c3714e8%3A1661975971032"></iframe>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex text-white align-items-center gap-2 fs-4 mb-3 fw-bold">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                <span>@a2i Facebook</span>
+                            </div>
+
+                            <iframe style="background: #fff; border: 0px solid; border-radius: 12px; overflow: hidden; height: 340px; width: 100%;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fa2iBangladesh%2F&amp;tabs=timeline&amp;width=340&amp;height=340&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=true&amp;show_facepile=true&amp;appId=336467388471596" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex text-white align-items-center gap-2 fs-4 mb-3 fw-bold">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>@a2i Media</span>
+                        </div>
+                    </div>
+
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded-4">
+                            <div class="carousel-item active">
+                                <video
+                                    id="my-video"
+                                    class="video-js"
+                                    controls
+                                    preload="auto"
+                                    poster="https://a2i.gov.bd/wp-content/uploads/2022/08/Re-architecting-Goverment-1024x576.jpg"
+                                    data-setup="{}"
+                                >
+                                    <source src="assets/videos/adgs.mp4" type="video/mp4" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video
+                                    id="my-video"
+                                    class="video-js"
+                                    controls
+                                    preload="auto"
+                                    poster="https://a2i.gov.bd/wp-content/uploads/2022/08/Re-architecting-Goverment-1024x576.jpg"
+                                    data-setup="{}"
+                                >
+                                    <source src="assets/videos/adgs.mp4" type="video/mp4" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video
+                                    id="my-video"
+                                    class="video-js"
+                                    controls
+                                    preload="auto"
+                                    poster="https://a2i.gov.bd/wp-content/uploads/2022/08/Re-architecting-Goverment-1024x576.jpg"
+                                    data-setup="{}"
+                                >
+                                    <source src="assets/videos/adgs.mp4" type="video/mp4" />
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                    </p>
+                                </video>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Top Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row pt-5 pb-4">
+                <div class="col-sm-6 col-xl-3">
+                    <h5 class="text-light">Who we are?</h5>
+
+                    <ul class="list-unstyled footer-menu">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                    </ul>
+
+                    <h5 class="text-light">Get Involved</h5>
+
+                    <ul class="list-unstyled footer-menu">
+                        <li>
+                            <a href="#">Career</a>
+                            </li>
+                        <li>
+                            <a href="#">Tenders</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <h5 class="text-light">a2i Footprints</h5>
+
+                    <ul class="list-unstyled footer-menu">
+                        <li>
+                            <a href="#">Press Release</a>
+                            </li>
+                        <li>
+                            <a href="#">Publications</a>
+                        </li>
+                        <li>
+                            <a href="#">News & Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Stories</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <h5 class="text-light">Our Missions</h5>
+
+                    <ul class="list-unstyled footer-menu">
+                        <li>
+                            <a href="#">Digital Equity</a>
+                            </li>
+                        <li>
+                            <a href="#">Civil Service 2041</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital Financial Inclusion</a>
+                        </li>
+                        <li>
+                            <a href="#">Future of Education</a>
+                        </li>
+                        <li>
+                            <a href="#">Future of Work</a>
+                        </li>
+                        <li>
+                            <a href="#">Future of Digital Economy</a>
+                        </li>
+                        <li>
+                            <a href="#">Data-driven Policy Making</a>
+                        </li>
+                        <li>
+                            <a href="#">South-South Cooperation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 col-xl-3">
+                    <h5 class="text-light">a2i Footprints</h5>
+
+                    <div class="fs-14 text-light">
+                        Aspire to Innovate (a2i) Programme<br>
+                        E-14/X, ICT Tower<br>
+                        Agargaon, Sher-e-Bangla Nagar,<br>
+                        Dhaka-1207, Bangladesh
+                        <br><br>
+                        Phone: 88 02 55006931-34<br>
+                        Fax: 88 02 55006940<br>
+                        Email: info@a2i.gov.bd
+                    </div>
+
+                    <h5 class="text-light mt-4">Socialize with Social</h5>
+
+                    <ul class="a2i-social-links-container ps-0">
+                        <li><a href="https://www.facebook.com/a2iBangladesh/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://twitter.com/a2i_bd" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/a2ibangladesh" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/13730922/admin/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+
+                    <img src="https://a2i.nvisio.one/wp-content/uploads/2022/08/a2i-Logo-set.svg" class="img-fluid w-100 mt-3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col footer-credit border-top px-0 py-3">
+                    <p class="mb-0 fs-14 text-light">© 2022 a2i</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="assets/js/jquery-3.6.1.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- Video Player -->
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/a2i.js"></script>
+</body>
+</html>
