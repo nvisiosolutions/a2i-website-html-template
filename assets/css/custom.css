@@ -695,6 +695,7 @@ button.read-more:hover {
 .mission-card {
     cursor: pointer;
     height: 250px !important;
+    overflow: hidden;
 }
 
 .mission-card img {

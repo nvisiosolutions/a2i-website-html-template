@@ -96,6 +96,27 @@ body {
     line-height: 22px;
     text-align: center;
 }
+.main-nav .dropdown .dropdown-menu {
+    min-width: 300px;
+    transition: .3s all ease-in-out;
+}
+.main-nav .dropdown .dropdown-item {
+    background-color: #fff;
+    font-weight: normal;
+}
+.main-nav .dropdown li a {
+    transition: .3s all ease-in-out;
+}
+.main-nav .dropdown li:hover .dropdown-item {
+    padding-left: 25px !important;
+    transition: .3s all ease-in-out;
+    color: #000;
+}
+.main-nav .dropdown .dropdown-item.active, .main-nav .dropdown .dropdown-item.active:hover {
+    border-radius: 6px;
+    background: linear-gradient(90deg,rgba(9,116,71,1) 0%,rgba(10,148,68,1) 100%) !important;
+    color: #fff !important;
+}
 
 /* Landing Page Header */
 .landing-page-header {
