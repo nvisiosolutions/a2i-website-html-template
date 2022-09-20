@@ -146,6 +146,13 @@ a, button {
 	height: 440px !important;
     cursor: pointer;
 }
+.filter-btn:hover, .filter-btn:focus {
+    border: 1px solid #001C38 !important;
+    color: #001C38;
+}
+.filter-btn.filter-active {
+    border: 1px solid #001C38 !important;
+}
 .publications-filter-btns {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1219,6 +1226,8 @@ button.read-more:hover {
     height: 100%;
     transform: scale(.9);
     transition: .3s all ease-in-out;
+    width: 100%;
+    object-fit: cover;
 }
 .team-card:hover .teams-circle-img {
     transform: scale(1);
