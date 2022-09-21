@@ -34,9 +34,21 @@ body {
 .-mt-30 {
     margin-top: -30px;
 }
+.fs-20 {
+    font-size: 20px;
+    line-height: 38px;
+}
 .fs-14 {
     font-size: 14px;
     line-height: 22px;
+}
+.fs-26 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.fs-46 {
+    font-size: 46px;
+    line-height: 60px;
 }
 
 /* Components */
@@ -330,10 +342,26 @@ body {
 
 
 /* About Us Page */
+.fade.show {
+    opacity: 1;
+    display: block;
+}
 .fade:not(.show) {
     opacity: 0;
     display: none;
 }
 .a2i-footprints-bg-h {
     max-height: 700px;
+}
+.about-text-overlay {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background: linear-gradient(0deg, rgb(0, 0, 0, .8) 100%, rgba(255, 255, 255, 0) 20%);
+}
+.min-h-80 {
+    min-height: 80vh;
 }

@@ -4,6 +4,13 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .fs-20 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .landing-page-stories .lps:nth-child(2) {
         margin-top: 100px;
@@ -19,5 +26,194 @@
     }
     .landing-page-header {
         height: 100vh;
+    }
+}
+
+/**
+ * Responsive
+ **/
+@media only screen and (min-width: 768px) {
+		.elementor-element-5fc4312 .elementor-posts-container article:nth-child(2) {
+		margin-top: 100px;
+	}
+	.elementor-element-5fc4312 .elementor-posts-container article:nth-child(3) {
+		margin-top: 200px;
+	}
+
+	.elementor-element-5fc4312 .elementor-posts-container article:nth-child(4) {
+		margin-top: 300px;
+	}
+}
+@media screen and (min-width: 1440px) {
+    .impact-buttons, .impact-grid {
+        width: 1400px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	.mission-content {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #elementor-popup-modal-2596 .dialog-widget-content {
+        animation-duration: 0.3s;
+        box-shadow: 2px 8px 23px 3pxrgba(0,0,0,0.2);
+        width: 80% !important;
+    }
+    #elementor-popup-modal-2596 .dialog-message {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #elementor-popup-modal-2596 .elementor-container {
+    	width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .awards-row-1 {
+    	margin-right: 0;
+        grid-gap: 50px;
+    }
+    .awards-row-2 {
+    	margin-left: 0;    
+        grid-gap: 50px;
+    }
+    .awards-row-3 {
+    	margin-right: 0;    
+        grid-gap: 50px;
+    }
+    .awards-row-4 {
+    	margin-left: 0;    
+        grid-gap: 50px;
+    }
+    .mission-grid {
+    	grid-template-columns: repeat(1, 1fr);
+    }
+    .publications-filter-btns {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .impact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .global-impact-btn {
+        padding: 30px 20px 30px 20px;
+    }
+    .initiatives_impact_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .a2i-footprints-bg-h {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .awards-row-1 {
+    	grid-template-columns: repeat(2, 1fr);
+    }
+    .awards-row-2 {
+    	grid-template-columns: repeat(2, 1fr);
+    }
+    .awards-row-3 {
+    	grid-template-columns: repeat(2, 1fr);
+    }
+    .awards-row-4 {
+    	grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .mission-carousel-inner iframe {
+        min-height: 500px;
+    }
+    .trending-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .trending-grid .id {
+        color: #7100AD;
+        font-size: 22px;
+        line-height: 25px;
+        border-right: 0px solid #7100AD;
+        border-bottom: 3px solid #7100AD;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .desktop-team {
+    	display: none !important;
+    }
+    .mobile-team {
+    	display: block;
+    }
+    .mission_single_hero {
+        height: 90vh;
+    }
+    .publications-filter-btns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .elementor-1465 .elementor-element.elementor-element-7978aff0 > .elementor-container {
+        padding: 0 10px 0 10px;
+    }
+    .text-box-center {
+        width: 90%;
+        padding: 35px 0px !important;
+    }
+    .mission_single_hero .text-box-center {
+    	font-size: 2rem;
+    }
+    .a2i-footprints-bg-h {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .impact-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .global-impact-btn {
+        padding: 30px 20px 30px 20px;
+    }
+    .text-box-center{
+        padding: 0px;
+    }
+    .text-box-center h2 {
+        font-size: 1.5rem;
+    }
+    .text-box-center p{
+        font-size: 10px;
+    }
+    .impact-single{
+        margin: 0px 0px;
+        padding: 50px 0px;
+    }
+    .col-md-4:nth-child(2) .impact-single {
+        border-top: 2px solid #001B51;
+        border-right: 0px solid #001B51;
+        border-left: 0px solid #001B51;
+        border-bottom: 2px solid #001B51;
+    }
+    .initiatives_impact_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .publications-filter-btns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .innc-w {
+        width: 100% !important;
+    }
+    .elementor-1465 .elementor-element.elementor-element-7978aff0 > .elementor-container {
+        padding: 0 10px 0 10px;
+    }
+    .a2i-in-country {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fs-46 {
+        font-size: 46px;
+        line-height: 30px;
+    }
+    .a2i-footprints-bg-h {
+        max-height: 1200px;
+        height: 1200px;
     }
 }
