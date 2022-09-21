@@ -375,3 +375,43 @@ body {
     border: 1px solid #002C20;
     box-shadow: 2px 2px 0px #002C20;
 }
+
+/* 404 Page Template */
+.page_404 {
+	padding: 0;
+	background: #fff;
+	margin-top: -140px;
+}
+
+.page_404 img {
+	width: 600px;
+	margin-bottom: 32px;
+}
+
+ .four_zero_four_bg h1{
+ 	font-size:80px;
+ }
+ 
+.four_zero_four_bg h3{
+	font-size:80px;
+}
+			 
+.link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #00113E;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;
+}
+
+.contant_box_404 .h2 {
+	font-size: 62px;
+    color: #00113E;
+}
+.contant_box_404 a {
+    background: #00113E;
+}
+.contant_box_404 a:hover {
+    background: #3351A7;
+}
