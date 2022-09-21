@@ -12,6 +12,10 @@ body {
 .bg-silver {
     background: #EDF1F4;
 }
+.bg-silver-light {
+    background: #FAFAFA;
+}
+
 .w-max {
     width: max-content;
 }
@@ -386,14 +390,13 @@ body {
 	margin-bottom: 32px;
 }
 
- .four_zero_four_bg h1{
- 	font-size:80px;
- }
- 
+.four_zero_four_bg h1{
+    font-size:80px;
+}
+
 .four_zero_four_bg h3{
 	font-size:80px;
 }
-			 
 .link_404{			 
 	color: #fff!important;
     padding: 10px 20px;
@@ -422,7 +425,7 @@ body {
     background-color: #011a5e !important;
 }
 
-.job-table a {
+.job-table a, .tender-table a {
     background-color: #c8fcde;
     color: #0F6936;
     font-weight: 600;
@@ -436,3 +439,12 @@ body {
     position: relative;
     z-index: 9999;
 } */
+
+/* Tender Description */
+.tendar-desc {
+    font-size: 36px;
+    line-height: 54px;
+}
+.tender-table .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat !important;
+}
