@@ -365,3 +365,13 @@ body {
 .min-h-80 {
     min-height: 80vh;
 }
+
+.placeholder-14::placeholder {
+    font-size: 14px;
+}
+#send-me:hover {
+    background: white;
+    color: #002C20;
+    border: 1px solid #002C20;
+    box-shadow: 2px 2px 0px #002C20;
+}
