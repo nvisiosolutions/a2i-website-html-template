@@ -78,12 +78,39 @@ $(document).ready(function () {
         dots: false,
         arrows: false,
         slidesToShow: 8,
-        slidesToScroll: 8,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
         speed: 5000,
-        pauseOnHover: true,
-        cssEase: 'linear'
+        pauseOnHover: false,
+        cssEase: 'linear',
+        responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 6,
+                        infinite: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4,
+                        infinite: true
+                    }
+                }, 
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 2,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 300,
+                    settings: "unslick" // destroys slick
+                }
+            ],
     });
 });
 

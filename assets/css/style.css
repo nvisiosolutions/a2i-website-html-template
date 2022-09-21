@@ -9,11 +9,17 @@ body {
 .h-max-screen {
     height: 100vh;
 }
+.bg-silver {
+    background: #EDF1F4;
+}
 .w-max {
     width: max-content;
 }
 .bottom-6 {
     bottom: 6px;
+}
+.-mb-7 {
+    margin-bottom: -7px;
 }
 .pb-140 {
     padding-bottom: 140px;
@@ -320,4 +326,14 @@ body {
 }
 .footer-credit {
     border-color: #072778 !important;
+}
+
+
+/* About Us Page */
+.fade:not(.show) {
+    opacity: 0;
+    display: none;
+}
+.a2i-footprints-bg-h {
+    max-height: 700px;
 }
