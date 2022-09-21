@@ -18,6 +18,9 @@ body {
 .bottom-6 {
     bottom: 6px;
 }
+.under-headline-hr {
+    width: 100px;
+}
 .-mb-7 {
     margin-bottom: -7px;
 }
@@ -113,6 +116,9 @@ body {
     height: 35px;
     line-height: 22px;
     text-align: center;
+}
+.main-nav {
+    font-size: 14px;
 }
 .main-nav .dropdown .dropdown-menu {
     min-width: 300px;
@@ -342,14 +348,6 @@ body {
 
 
 /* About Us Page */
-.fade.show {
-    opacity: 1;
-    display: block;
-}
-.fade:not(.show) {
-    opacity: 0;
-    display: none;
-}
 .a2i-footprints-bg-h {
     max-height: 700px;
 }
@@ -415,3 +413,26 @@ body {
 .contant_box_404 a:hover {
     background: #3351A7;
 }
+
+/* Career Page */
+.a2i-btn-bg {
+    background-color: #00113E;
+}
+.a2i-btn-bg:hover {
+    background-color: #011a5e !important;
+}
+
+.job-table a {
+    background-color: #c8fcde;
+    color: #0F6936;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 100px;
+    padding: 3px 20px;
+    border: none;
+}
+
+/* .job-table {
+    position: relative;
+    z-index: 9999;
+} */
