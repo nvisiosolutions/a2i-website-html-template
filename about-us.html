@@ -15,6 +15,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/css/all.css">
 
+    <!-- Lottie Animation -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <!-- Video Player CSS -->
     <link rel="stylesheet" href="assets/css/video-js.css">
 
@@ -33,14 +36,21 @@
     <!-- Header Section Start -->
     <header class="a2i-navbar position-relative">
         <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
+            <div class="container position-relative">
+                <a class="navbar-brand me-0" href="index.html">
                     <img src="assets/img/logo.png" class="a2i-logo" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+
+                <!-- Mobile Search Form -->
+                <form class="position-relative flex-grow-1 d-flex d-lg-none mx-2" role="search">
+                    <input class="form-control shadow-none rounded-pill a2i-header-search-form-input text-white border-0" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn position-absolute end-0 a2i-header-search-form-btn h-100 shadow-none border-0 rounded-circle" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Missions</a>
@@ -66,7 +76,9 @@
                             <a class="nav-link text-white" href="about-us.html">About Us</a>
                         </li>
                     </ul>
-                    <form class="d-flex position-relative" role="search">
+
+                    <!-- Desktop Search Form -->
+                    <form class="position-relative d-none d-lg-flex" role="search">
                         <input class="form-control shadow-none rounded-pill a2i-header-search-form-input text-white border-0" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn position-absolute end-0 a2i-header-search-form-btn h-100 shadow-none border-0 rounded-circle" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
@@ -76,7 +88,7 @@
     </header>
     <!-- Header Section End -->
 
-    <div style="background: url('http://localhost/a2i/wp-content/uploads/2022/08/Header-Banner-1-scaled.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;" class="mt--118 d-flex flex-column justify-content-end min-h-80">
+    <div style="background: url('https://a2i.gov.bd/wp-content/uploads/2022/08/Header-Banner-1-scaled.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;" class="mt--118 d-flex flex-column justify-content-end min-h-80">
     	<div class="about-text-overlay">
             <div class="text-box-center text-white py-4">
                 <h2 class="fs-46">
@@ -109,7 +121,7 @@
             <div class="card bg-white my-4">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <img src="http://localhost/a2i/wp-content/uploads/2022/09/IMG_121.jpg" class="img-fluid" alt="">
+                        <img src="https://a2i.gov.bd/wp-content/uploads/2022/09/IMG_121.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6">
                         <div class="card p-3 pe-3">

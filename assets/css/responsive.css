@@ -9,6 +9,25 @@
         font-size: 16px;
         line-height: 30px;
     }
+    .landing-page-right-side {
+        margin-top: -6px;
+    }
+    .trending-insights-position {
+        position: relative;
+        width: auto;
+    }
+    .pb-140 {
+        padding-bottom: 45px;
+    }
+    .b-100 {
+        bottom: 3px;
+    }
+    .a2i-logoset-top {
+        max-width: 285px;
+    }
+    .h-max-screen-landing-header-r {
+        height: 50vh;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -50,12 +69,6 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-	.mission-content {
-        width: 60%;
-    }
-}
-
 @media screen and (min-width: 991px) {
     #elementor-popup-modal-2596 .dialog-widget-content {
         animation-duration: 0.3s;
@@ -72,6 +85,11 @@
 }
 
 @media screen and (max-width: 991px) {
+    #main-menu {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+    }
     .awards-row-1 {
     	margin-right: 0;
         grid-gap: 50px;
@@ -107,9 +125,30 @@
     .a2i-footprints-bg-h {
         height: 800px;
     }
+
+    .mission-content {
+        width: 60%;
+    }
+    .trending-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+    .trending-grid .id {
+        color: #7100AD;
+        font-size: 22px;
+        line-height: 25px;
+        border-right: 0px solid #7100AD;
+        border-bottom: 3px solid #7100AD;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .awards-row-1 {
     	grid-template-columns: repeat(2, 1fr);
     }
@@ -126,19 +165,7 @@
     .mission-carousel-inner iframe {
         min-height: 500px;
     }
-    .trending-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
-    }
-    .trending-grid .id {
-        color: #7100AD;
-        font-size: 22px;
-        line-height: 25px;
-        border-right: 0px solid #7100AD;
-        border-bottom: 3px solid #7100AD;
-        padding-left: 10px;
-        padding-bottom: 10px;
-    }
+    
     .desktop-team {
     	display: none !important;
     }
@@ -187,6 +214,12 @@
     }
     .tender-table {
         width: 1000px;
+    }
+    .a2i-logoset-top {
+        max-width: 185px;
+    }
+    .h-max-screen-landing-header-r {
+        height: 500px;
     }
 }
 
@@ -244,5 +277,16 @@
     .fs-26 {
         font-size: 15px;
         line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .a2i-logo {
+        max-width: 55px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .a2i-logo {
+        max-width: 35px;
     }
 }

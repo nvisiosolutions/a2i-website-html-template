@@ -15,6 +15,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/css/all.css">
 
+    <!-- Lottie Animation -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <!-- Video Player CSS -->
     <link rel="stylesheet" href="assets/css/video-js.css">
 
@@ -33,14 +36,21 @@
     <!-- Header Section Start -->
     <header class="a2i-navbar position-relative">
         <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
+            <div class="container position-relative">
+                <a class="navbar-brand me-0" href="index.html">
                     <img src="assets/img/logo.png" class="a2i-logo" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+
+                <!-- Mobile Search Form -->
+                <form class="position-relative flex-grow-1 d-flex d-lg-none mx-2" role="search">
+                    <input class="form-control shadow-none rounded-pill a2i-header-search-form-input text-white border-0" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn position-absolute end-0 a2i-header-search-form-btn h-100 shadow-none border-0 rounded-circle" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="main-menu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Missions</a>
@@ -66,7 +76,9 @@
                             <a class="nav-link text-white" href="about-us.html">About Us</a>
                         </li>
                     </ul>
-                    <form class="d-flex position-relative" role="search">
+
+                    <!-- Desktop Search Form -->
+                    <form class="position-relative d-none d-lg-flex" role="search">
                         <input class="form-control shadow-none rounded-pill a2i-header-search-form-input text-white border-0" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn position-absolute end-0 a2i-header-search-form-btn h-100 shadow-none border-0 rounded-circle" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
@@ -84,7 +96,7 @@
                     <div class="overflow-hidden">
                         <video class="object-cover h-max-screen w-100" autoplay="" muted="" playsinline="" loop="" src="http://3.1.208.233/wp-content/uploads/2022/09/a2i-main-banner-1.mp4"></video>
                     </div>
-                    <div class="position-absolute w-100 bottom-6 end-0 pb-140 pe-5 text-end text-white landing-page-header-content-overlay d-flex flex-column justify-content-end align-items-end">
+                    <div class="position-absolute w-100 bottom-6 end-0 pb-140 pe-4 pe-md-5 text-end text-white landing-page-header-content-overlay d-flex flex-column justify-content-end align-items-end">
                         <div class="header-left-content">
                             <h2 class="fw-bold">a2i : A Multinational Digital Transformation Catalyst from the Government of Bangladesh</h2>
                             <div class="header-left-btn-wrapper ms-auto mt-4">
@@ -98,8 +110,8 @@
                     <img src="assets/img/landing-page/a2i-logoset.svg" class="a2i-logoset-top position-absolute start-0 b-100 p-3" alt="">
                 </div>
                 <div class="col-xl-4 pe-0 ps-0 ps-xl-2">
-                    <div class="landing-page-right-side h-max-screen">
-                        <div class="landing-page-header-right-content-overlay d-flex flex-column justify-content-end text-white pb-140 ps-5">
+                    <div class="landing-page-right-side h-max-screen-landing-header-r">
+                        <div class="landing-page-header-right-content-overlay d-flex flex-column justify-content-end text-white pb-140 ps-4 px-md-5">
                             <div class="header-right-content">
                                 <h2 class="fw-bold">InFocus : South-South Matchmaker Workshop on Public Service Innovation</h2>
                                 <div class="header-right-btn-wrapper me-auto mt-4">
@@ -113,25 +125,29 @@
                     </div>
                 </div>
             </div>
-            <div class="row position-absolute bottom-0 w-100">
-                <section class="trending-insights py-3">
+            <div class="row trending-insights-position bottom-0">
+                <div class="trending-insights px-0 py-3">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-2">
-                                <h2 class="section-title mb-0">Trending<br>Insights</h2>
+                            <div class="col-xl-2">
+                                <h2 class="section-title mb-0">Trending Insights</h2>
                             </div>
-                            <div class="col-10">
+                            <div class="col-xl-10 mt-3 mt-xl-0">
                                 <div class="trending-grid">
-                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-sm-row text-center text-md-start">
+                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-lg-row text-center text-md-start">
+                                        <span class="id fw-bold">3</span>
+                                        <span class="trending-title">Challenge Fund 2022</span>
+                                    </a>
+                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-lg-row text-center text-md-start">
                                         <span class="id fw-bold">1</span>
                                         <span class="trending-title">Smart Bangladesh Vision 2041</span>
                                     </a>
                                     
-                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-sm-row text-center text-md-start">
+                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-lg-row text-center text-md-start">
                                         <span class="id fw-bold">2</span>
                                         <span class="trending-title">Enhancing Equality through e-Quality</span>
                                     </a>
-                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-sm-row text-center text-md-start">
+                                    <a href="single-insights.html" class="trending-insights-item text-decoration-none d-flex flex-column flex-lg-row text-center text-md-start">
                                         <span class="id fw-bold">3</span>
                                         <span class="trending-title">Blended Education Accelerator</span>
                                     </a>
@@ -139,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     </section>
@@ -837,8 +853,10 @@
             </div>
 
             <div class="row">
-                <div class="col footer-credit border-top px-0 py-3">
-                    <p class="mb-0 fs-14 text-light">© 2022 a2i</p>
+                <div class="col">
+                    <div class="footer-credit border-top py-3">
+                        <p class="mb-0 fs-14 text-light">© 2022 a2i</p>
+                    </div>
                 </div>
             </div>
         </div>

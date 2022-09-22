@@ -96,12 +96,16 @@ body {
 
 
 /* Header Section */
+#main-menu {
+    padding-left: 10px;
+}
+
 .a2i-navbar {
     z-index: 99999;
     background: transparent linear-gradient(180deg,#000B2BE6 0%,#00061CD6 45%,#000A1C00 100%) 0% 0% no-repeat padding-box
 }
 .a2i-logo {
-    max-width: 80px;
+	max-width: 70px;
 }
 .a2i-header-search-form-input, .a2i-header-search-form-input:focus {
     background: #e0e0e073;
@@ -207,6 +211,9 @@ body {
     padding-right: 30px;
 }
 
+.h-max-screen-landing-header-r {
+    height: 100vh;
+}
 .header-right-btn-wrapper {
     width: max-content;
 }
@@ -238,6 +245,10 @@ body {
 }
 .header-right-btn:hover .header-right-btn-text {
     padding-left: 30px;
+}
+.trending-insights-position {
+    position: absolute;
+    width: 100%;
 }
 .trending-insights {
     background-color: #EFEFEF;
