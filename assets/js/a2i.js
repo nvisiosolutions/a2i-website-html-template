@@ -1,3 +1,9 @@
+$(document).ready(function() {
+	setTimeout(function(){
+        $("#loader-wrapper").fadeOut(1000);
+	}, 2000);
+});
+
 // Missions Initiatives Box Hidden on Expand
 const mission_card = document.querySelectorAll('.mission-card')
 
@@ -19,6 +25,25 @@ mission_card.forEach(item => {
         })()
     })
 })
+
+// About Page Tab
+const international_tab_btn = document.getElementById('international-tab')
+const national_tab_btn = document.getElementById('national-tab')
+const international_tab = document.getElementById('international')
+const national_tab = document.getElementById('national')
+
+national_tab.style.display = 'none'
+international_tab.style.display = 'block'
+
+international_tab_btn.addEventListener('click', () => {
+    national_tab.style.display = 'none'
+    international_tab.style.display = 'block'
+})
+national_tab_btn.addEventListener('click', () => {
+    national_tab.style.display = 'block'
+    international_tab.style.display = 'none'
+})
+
 
 
 $(document).ready(function () {
