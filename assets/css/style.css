@@ -436,6 +436,12 @@ body {
 .lps {
     margin-top: 20px;
 }
+.landing-page-stories a .landing-stories-img {
+    transition: .3s all ease-in-out;
+}
+.landing-page-stories a:hover .landing-stories-img {
+    transform: scale(1.1);
+}
 
 /* Awards Section */
 .awards-section-title {
