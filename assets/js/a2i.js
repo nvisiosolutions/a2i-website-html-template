@@ -1,3 +1,10 @@
+$(document).ready(function() {
+	setTimeout(function(){
+		$('body').addClass('loaded');
+	}, 2000);
+	
+});
+
 // Missions Initiatives Box Hidden on Expand
 const mission_card = document.querySelectorAll('.mission-card')
 

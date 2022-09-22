@@ -46,6 +46,11 @@
     .landing-page-header {
         height: 100vh;
     }
+    .trending-insights-position {
+        position: absolute;
+        width: 100%;
+        bottom: -10px;
+    }
 }
 
 /**
@@ -141,6 +146,11 @@
         border-bottom: 3px solid #7100AD;
         padding-left: 10px;
         padding-bottom: 10px;
+    }
+    #loader {
+        top: 32%;
+        width: 250px;
+        padding-left: 50px;
     }
 }
 
@@ -277,6 +287,9 @@
     .fs-26 {
         font-size: 15px;
         line-height: 22px;
+    }
+    .awards-section-title {
+        font-size: 32px;
     }
 }
 
