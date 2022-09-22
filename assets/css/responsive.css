@@ -92,8 +92,20 @@
 @media screen and (max-width: 991px) {
     #main-menu {
         position: absolute;
-        top: 90px;
+        top: 60px;
         width: 100%;
+        background: #fff;
+        left: 0;
+        padding-right: 10px;
+    }
+
+    #main-menu li a {
+        color: #000;
+    }
+    .main-nav .dropdown .dropdown-item.active, .main-nav .dropdown .dropdown-item.active:hover {
+        border-radius: 6px;
+        background: linear-gradient(90deg,rgba(9,116,71,1) 0%,rgba(10,148,68,1) 100%) !important;
+        color: #fff !important;
     }
     .awards-row-1 {
     	margin-right: 0;
@@ -151,6 +163,14 @@
         top: 32%;
         width: 250px;
         padding-left: 50px;
+    }
+    #main-menu {
+        position: absolute;
+        top: 60px;
+        width: 95%;
+        background: #fff;
+        left: 13px;
+        padding-right: 10px;
     }
 }
 
@@ -231,6 +251,15 @@
     .h-max-screen-landing-header-r {
         height: 500px;
     }
+
+    #main-menu {
+        position: absolute;
+        top: 60px;
+        width: 90%;
+        background: #fff;
+        left: 20px;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -291,6 +320,14 @@
     .awards-section-title {
         font-size: 32px;
     }
+    #main-menu {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        background: #fff;
+        left: 0;
+        padding-right: 10px;
+    }
 }
 
 @media screen and (max-width: 385px) {
@@ -300,6 +337,6 @@
 }
 @media screen and (max-width: 360px) {
     .a2i-logo {
-        max-width: 35px;
+        max-width: 50px;
     }
 }

@@ -1,8 +1,7 @@
 $(document).ready(function() {
 	setTimeout(function(){
-		$('body').addClass('loaded');
+        $("#loader-wrapper").fadeOut(1000);
 	}, 2000);
-	
 });
 
 // Missions Initiatives Box Hidden on Expand
